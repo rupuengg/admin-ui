@@ -1,0 +1,31 @@
+.pagination {
+  display: block;
+}
+
+.pagination ul,
+.pagination li {
+  margin: 0;
+  padding: 0;
+}
+
+.pagination ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.pagination ul li {
+  display: inline-block;
+  padding: 4px 10px;
+  cursor: pointer;
+  border: 1px solid #1b90ff;
+  background-color: #1b90ff;
+  margin-right: 20px;
+  font-size: 12px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.pagination ul li.active {
+  background-color: #fff;
+  color: #1b90ff;
+}
